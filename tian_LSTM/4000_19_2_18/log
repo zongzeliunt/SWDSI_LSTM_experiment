@@ -1,0 +1,50 @@
+Epoch 1/5
+103599/103599 [==============================] - 478s 5ms/step - loss: 1.3523 - acc: 0.5191
+Epoch 2/5
+103599/103599 [==============================] - 483s 5ms/step - loss: 0.8087 - acc: 0.7197
+Epoch 3/5
+103599/103599 [==============================] - 482s 5ms/step - loss: 0.5234 - acc: 0.8341
+Epoch 4/5
+103599/103599 [==============================] - 477s 5ms/step - loss: 0.4520 - acc: 0.8578
+Epoch 5/5
+103599/103599 [==============================] - 482s 5ms/step - loss: 0.4185 - acc: 0.8672
+total Accuracy: 86.66%
+
+class 0:
+x_train_length: 6078
+x_test_length: 2601
+total Accuracy: 67.32%
+
+class 1:
+x_train_length: 20496
+x_test_length: 8780
+total Accuracy: 86.88%
+
+class 2:
+x_train_length: 6594
+x_test_length: 2821
+total Accuracy: 88.44%
+
+class 3:
+x_train_length: 21877
+x_test_length: 9372
+total Accuracy: 94.94%
+
+class 4:
+x_train_length: 26285
+x_test_length: 11261
+total Accuracy: 88.51%
+
+class 5:
+x_train_length: 12455
+x_test_length: 5334
+total Accuracy: 80.82%
+
+class 6(7):
+x_train_length: 9898
+x_test_length: 4237
+total Accuracy: 80.98%
+
+
+
+

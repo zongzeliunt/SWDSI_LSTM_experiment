@@ -1,0 +1,12 @@
+Debt collection: 4
+Other financial service: 10
+Credit reporting: 1
+Mortgage: 3
+Prepaid card: 9
+Student loan: 2
+Money transfers: 8
+Bank account or service: 7
+Credit card: 5
+Payday loan: 6
+Virtual currency: 11
+Consumer Loan: 0
