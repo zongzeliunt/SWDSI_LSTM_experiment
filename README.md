@@ -6,3 +6,7 @@ Talk topic:
 "An Exploratory Study of Long Short-term Memory on Consumer Complaints to Financial Services"
 Xiaoguang Tian, University of North Texas
 Zongze Li, University of North Texas
+
+This research is focused on create LSTM model to cluster customer reviews in different classes and predict which class a future review word sequence shoule belong to.
+
+Using python and keras library.
