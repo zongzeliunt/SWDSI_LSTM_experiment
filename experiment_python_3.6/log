@@ -1,0 +1,40 @@
+
+Using TensorFlow backend.
+x_train_length: 103599
+x_test_length: 44406
+2020-01-20 16:53:47.526674: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-20 16:53:47.550761: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1992000000 Hz
+2020-01-20 16:53:47.551709: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x9774a80 executing computations on platform Host. Devices:
+2020-01-20 16:53:47.551795: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 300, 32)           128000    
+_________________________________________________________________
+lstm_1 (LSTM)                (None, 150)               109800    
+_________________________________________________________________
+dense_1 (Dense)              (None, 7)                 1057      
+=================================================================
+Total params: 238,857
+Trainable params: 238,857
+Non-trainable params: 0
+_________________________________________________________________
+None
+main.py:59: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(x_train, y_train, nb_epoch=5, batch_size=32)
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/framework/indexed_slices.py:424: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+Epoch 1/5
+103599/103599 [==============================] - 1447s 14ms/step - loss: 1.3847 - accuracy: 0.5019
+Epoch 2/5
+103599/103599 [==============================] - 1261s 12ms/step - loss: 1.1564 - accuracy: 0.5992
+Epoch 3/5
+103599/103599 [==============================] - 1257s 12ms/step - loss: 0.6727 - accuracy: 0.7681
+Epoch 4/5
+103599/103599 [==============================] - 1144s 11ms/step - loss: 0.4956 - accuracy: 0.8425
+Epoch 5/5
+103599/103599 [==============================] - 1046s 10ms/step - loss: 0.4387 - accuracy: 0.8612
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/framework/indexed_slices.py:424: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+total Accuracy: 86.30%
